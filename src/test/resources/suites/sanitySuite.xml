@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sanity Suite">
+	<test name="Sanity Suite Tests">
+	<groups>
+		<run>
+			<include name="sanitysuite"/>
+		</run>
+	</groups>
+		<classes>
+			<class name="com.bienen.ui.tests.ArchitekurPageTest" />
+			<class name="com.bienen.ui.tests.BackendPageTest" />
+			<class name="com.bienen.ui.tests.DatenbankPageTest" />
+			<class name="com.bienen.ui.tests.FrontEndPageTest" />
+			<class name="com.bienen.ui.tests.HardwarePageTest" />
+			<class name="com.bienen.ui.tests.HomePageTest" />
+			<class name="com.bienen.ui.tests.MesswertePageTest" />
+			<class name="com.bienen.ui.tests.ProjektPageTest" />
+			<class name="com.bienen.ui.tests.StockwaagenPageTest" />
+		</classes>
+
+	</test>
+
+</suite>
